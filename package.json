@@ -1,0 +1,16 @@
+{
+    "name": "monorepo",
+    "private": true,
+    "workspaces": [
+        "apps/*"
+    ],
+    "dependencies": {
+        "better-sqlite3": "^12.2.0",
+        "drizzle-orm": "^0.44.5",
+        "hono": "^4.9.7"
+    },
+    "devDependencies": {
+        "bun-types": "^1.2.21",
+        "drizzle-kit": "^0.31.4"
+    }
+}
